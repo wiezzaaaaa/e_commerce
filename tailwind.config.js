@@ -1,8 +1,8 @@
+/** @type {import('tailwindcss').Config} */
 import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
 import typography from '@tailwindcss/typography';
 
-/** @type {import('tailwindcss').Config} */
 export default {
     content: [
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
@@ -15,6 +15,11 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+            },
+            colors: {
+                'vyre-gold': '#B8860B',
+                'vyre-dark': '#1E2124',
+                'vyre-light': '#F5F5F5',
             },
         },
     },

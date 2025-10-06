@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Tiyakin na mayroon nito kung Jetstream/Alpine.js ang gamit mo */
+@import 'tailwindcss-base/dist/tailwind-base.css';
+
 [x-cloak] {
     display: none;
 }
